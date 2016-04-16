@@ -43,16 +43,15 @@ if findHowManyOfUserGuess = 0 {
 		console.log("You guessed wrong~!" - guessesRemaining)
 	} else {
 		console.log("You guessed right")
-		if function currentWrd.didWeFindTheWord() returns true
+		if function currentWrd.didWeFindTheWord() returns true {
 			console.log('You Won!!!')
-
 			return 1 to the end of the game
 			console.log("guessesRemaining: " + value of guessesRemaining);
-			console.log("call the wordRender() mthod on the currentWrd )
-	} else {
-
+			console.log("call the wordRender() mthod on the currentWrd ")
+			}
+		}
 	}
-}
+
 	if (guessesRemaining > 0 && currentWrd.found == 'false') {
 	keepPromptingUser()
 	}else{
@@ -63,7 +62,6 @@ if findHowManyOfUserGuess = 0 {
 		}
 	}
 game.startGame();
-
 
 
 
